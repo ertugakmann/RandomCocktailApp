@@ -1,0 +1,62 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 500px;
+    height: 540px;
+    background-color: darkgray;
+    border: solid black 4px;
+    border-radius: 3px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.call {
+    position: relative;
+    top: -68 px;
+    right: -180px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#image {
+    max-width: 300px;
+    max-height: 300px;
+    border: solid black 3px;
+    border-radius: 3px;
+    position: relative;
+    right: -100px;
+    top: -20px;
+}
+
+#cocktail-name {
+    position: relative;
+    bottom: -350px;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
